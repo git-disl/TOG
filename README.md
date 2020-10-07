@@ -11,6 +11,14 @@ To install related packages, run the following command in terminal:
 pip install -r requirements.txt
 ```
 
+## Instruction
+TOG attacks support both one-phase and two-phase object detectors. In this repository, we include five object detectors trained on the VOC dataset. We prepare a Jupyter notebook for each victim detector to demonstrate the TOG attacks. Pretrained weights are available for download, and the links are provided in the corresponding notebook.
+* YOLOv3 with Darknet53: [[link]](https://github.com/git-disl/TOG/blob/master/demo_yolov3-d.ipynb)
+* YOLOv3 with MobileNetV1: [[link]](https://github.com/git-disl/TOG/blob/master/demo_yolov3-m.ipynb)
+* SSD300 with VGG16: [[link]](https://github.com/git-disl/TOG/blob/master/demo_ssd300.ipynb)
+* SSD512 with VGG16: [[link]](https://github.com/git-disl/TOG/blob/master/demo_ssd512.ipynb)
+* Faster R-CNN with VGG16: [[link]](https://github.com/git-disl/TOG/blob/master/demo_frcnn.ipynb)
+
 ## Status
 We are continuing the development and there is ongoing work in our lab regarding adversarial attacks and defenses on object detection. If you would like to contribute to this project, please contact [Ka-Ho Chow](https://khchow.com). 
 
@@ -23,3 +31,21 @@ The code is provided as is, without warranty or support. If you use our code, pl
   year={2020},
 }
 ```
+
+```
+@inproceedings{chow2020understanding,
+  title={Understanding Object Detection Through an Adversarial Lens},
+  author={Chow, Ka-Ho and Liu, Ling and Gursoy, Mehmet Emre and Truex, Stacey and Wei, Wenqi and Wu, Yanzhao},
+  booktitle={European Symposium on Research in Computer Security},
+  pages={460--481},
+  year={2020},
+  organization={Springer}
+}
+```
+
+## Acknowledgement
+This project is developed based on the following repositories:
+* [qqwweee/keras-yolo3](https://github.com/qqwweee/keras-yolo3)
+* [Adamdad/keras-YOLOv3-mobilenet](https://github.com/Adamdad/keras-YOLOv3-mobilenet)
+* [pierluigiferrari/ssd_keras](https://github.com/pierluigiferrari/ssd_keras)
+* [chenyuntc/simple-faster-rcnn-pytorch](https://github.com/chenyuntc/simple-faster-rcnn-pytorch)
