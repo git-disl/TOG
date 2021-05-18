@@ -3,12 +3,6 @@
 
 Real-time object detection is one of the key applications of deep neural networks (DNNs) for real-world mission-critical systems. While DNN-powered object detection systems celebrate many life-enriching opportunities, they also open doors for misuse and abuse. This project presents a suite of adversarial objectness gradient attacks, coined as TOG, which can cause the state-of-the-art deep object detection networks to suffer from untargeted random attacks or even targeted attacks with three types of specificity: (1) object-vanishing, (2) object-fabrication, and (3) object-mislabeling. Apart from tailoring an adversarial perturbation for each input image, we further demonstrate TOG as a universal attack, which trains a single adversarial perturbation that can be generalized to effectively craft an unseen input with a negligible attack time cost. Also, we apply TOG as an adversarial patch attack, a form of physical attacks, showing its ability to optimize a visually confined patch filled with malicious patterns, deceiving well-trained object detectors to misbehave purposefully. 
 
-
-| No Attack | TOG-vanishing | TOG-fabrication | TOG-mislabeling |
-|:---------:|:-------------:|:---------------:|-----------------|
-|![](assets/showcase_benign.gif)|![](assets/showcase_vanish.gif)|![](assets/showcase_fabricate.gif)|![](assets/showcase_mislabel.gif)|
-
-
 This repository contains the source code for the following papers in our lab:
 * Ka-Ho Chow, Ling Liu, Margaret Loper, Juhyun Bae, Mehmet Emre Gursoy, Stacey Truex, Wenqi Wei, and Yanzhao Wu. "Adversarial Objectness Gradient Attacks in Real-time Object Detection Systems." In IEEE International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications, 2020. [[PDF]](https://khchow.com/media/arXiv_TOG.pdf) [[Talk]](http://www.youtube.com/watch?v=acWI5pFNvwg)
 * Ka-Ho Chow, Ling Liu, Mehmet Emre Gursoy, Stacey Truex, Wenqi Wei, and Yanzhao Wu. "Understanding Object Detection Through an Adversarial Lens." In European Symposium on Research in Computer Security, pp. 460-481. Springer, 2020. [[PDF]](https://arxiv.org/pdf/2007.05828.pdf) [[Talk]](http://www.youtube.com/watch?v=acWI5pFNvwg)
