@@ -56,6 +56,17 @@ The code is provided as is, without warranty or support. If you use our code, pl
 }
 ```
 
+Our lab also investigates robust object detection against adversarial attacks, you can refer to:
+```
+@inproceedings{chow2021robust,
+  title={Robust Object Detection Fusion Against Deception},
+  author={Chow, Ka-Ho and Liu, Ling},
+  booktitle={ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+  year={2021},
+  organization={ACM}
+}
+```
+
 ## Acknowledgement
 This project is developed based on the following repositories:
 * [qqwweee/keras-yolo3](https://github.com/qqwweee/keras-yolo3)
