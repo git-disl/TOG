@@ -22,13 +22,12 @@ pip install -r requirements.txt
 
 ## Instruction
 TOG attacks support both one-phase and two-phase object detectors. In this repository, we include five object detectors trained on the VOC dataset. We prepare a Jupyter notebook for each victim detector to demonstrate the TOG attacks. Pretrained weights are available for download, and the links are provided in the corresponding notebook.
-* YOLOv3 with Darknet53: [[link]](https://github.com/git-disl/TOG/blob/master/demo_yolov3-d.ipynb)
-* YOLOv3 with MobileNetV1: [[link]](https://github.com/git-disl/TOG/blob/master/demo_yolov3-m.ipynb)
-* SSD300 with VGG16: [[link]](https://github.com/git-disl/TOG/blob/master/demo_ssd300.ipynb)
-* SSD512 with VGG16: [[link]](https://github.com/git-disl/TOG/blob/master/demo_ssd512.ipynb)
-* Faster R-CNN with VGG16: [[link]](https://github.com/git-disl/TOG/blob/master/demo_frcnn.ipynb)
-
-
+* TOG-untargeted, TOG-vanishing, TOG-fabrication, and TOG-mislabeling
+    * YOLOv3 with Darknet53: [[link]](https://github.com/git-disl/TOG/blob/master/demo_yolov3-d.ipynb)
+    * YOLOv3 with MobileNetV1: [[link]](https://github.com/git-disl/TOG/blob/master/demo_yolov3-m.ipynb)
+    * SSD300 with VGG16: [[link]](https://github.com/git-disl/TOG/blob/master/demo_ssd300.ipynb)
+    * SSD512 with VGG16: [[link]](https://github.com/git-disl/TOG/blob/master/demo_ssd512.ipynb)
+    * Faster R-CNN with VGG16: [[link]](https://github.com/git-disl/TOG/blob/master/demo_frcnn.ipynb)
 * TOG-patch: [[link]](https://github.com/git-disl/TOG/blob/master/demo_patch.ipynb)
 * TOG-universal: [[link]](https://github.com/git-disl/TOG/blob/master/demo_universal.ipynb)
 
