@@ -29,7 +29,7 @@ TOG attacks support both one-phase and two-phase object detectors. In this repos
     * SSD512 with VGG16: [[link]](https://github.com/git-disl/TOG/blob/master/demo_ssd512.ipynb)
     * Faster R-CNN with VGG16: [[link]](https://github.com/git-disl/TOG/blob/master/demo_frcnn.ipynb)
 * TOG-patch: [[link]](https://github.com/git-disl/TOG/blob/master/demo_patch.ipynb)
-* TOG-universal: [[link]](https://github.com/git-disl/TOG/blob/master/demo_universal.ipynb)
+* TOG-universal: [[link]](https://github.com/git-disl/TOG/blob/master/demo_universal.ipynb) - Pretrained universal perturbations (both vanishing and fabrication) for all supported models are available [[here]](https://github.com/git-disl/TOG/blob/master/pretrained_universal).
 
 ## Status
 We are continuing the development and there is ongoing work in our lab regarding adversarial attacks and defenses on object detection. If you would like to contribute to this project, please contact [Ka-Ho Chow](https://khchow.com). 
