@@ -1,6 +1,6 @@
-numpy==1.19.2
+numpy==1.18.5
 tqdm==4.49.0
-tensorflow-gpu==1.15.4
+tensorflow-gpu==1.14.0
 keras==2.2.4
 Pillow>=8.1.1
 matplotlib==3.3.2
@@ -10,3 +10,5 @@ scikit-image==0.17.2
 torchvision==0.4.0
 easydict==1.9
 tensorboardX==2.0
+h5py==2.10.0
+jupyter
