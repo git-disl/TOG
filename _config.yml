@@ -1,1 +1,6 @@
 theme: jekyll-theme-cayman
+
+title: "TOG: Adversarial Objectness Gradient Attacks in Real-time Object Detection Systems"
+description: Ka-Ho Chow, Ling Liu, Margaret Loper, Juhyun Bae, Mehmet Emre Gursoy, Stacey Truex, Wenqi Wei, and Yanzhao Wu
+
+show_downloads: True
