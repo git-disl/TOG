@@ -15,8 +15,15 @@ This repository contains the source code for the following papers in our lab:
 ## Installation and Dependencies
 This project runs on Python 3.6. You are highly recommended to create a virtual environment to make sure the dependencies do not interfere with your current programming environment. By default, GPUs will be used to accelerate the process of adversarial attacks. 
 
+To create a virtual environment, run the following command in terminal:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
 To install related packages, run the following command in terminal:
 ```bash
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
