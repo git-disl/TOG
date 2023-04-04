@@ -74,6 +74,15 @@ Our lab also investigates robust object detection against adversarial attacks, y
   organization={ACM}
 }
 ```
+```
+@inproceedings{chow2022boosting,
+  title={Boosting Object Detection Ensembles with Error Diversity},
+  author={Chow, Ka-Ho and Liu, Ling},
+  booktitle={IEEE International Conference on Data Mining},
+  year={2022},
+  organization={IEEE}
+}
+```
 
 ## Acknowledgement
 This project is developed based on the following repositories:
